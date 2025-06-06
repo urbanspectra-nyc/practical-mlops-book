@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.13.4
 
 COPY ./requirements.txt /webapp/requirements.txt
 
