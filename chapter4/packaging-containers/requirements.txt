@@ -4,3 +4,5 @@ transformers==2.1.0
 flask==1.1.2
 torch==1.7.1
 onnxruntime==1.6.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
